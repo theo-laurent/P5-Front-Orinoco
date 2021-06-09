@@ -45,7 +45,8 @@ document.getElementById("vidagePanier").onclick = function (event) {
 
 // on ajoute un event a notre btnPaiement pour vérifier le formulaire, stocker des données "contact" et "products" et envoyer ces données au serveur
 function formulaireContactValid() {
-  document.getElementById("btnPaiement").addEventListener("click", function () {
+  document.getElementById("btnPaiement").addEventListener("click", function (event) {
+    event.preventDefault();
     let products = [];
     let contact = {
       firstName: document.getElementById("firstName").value,
