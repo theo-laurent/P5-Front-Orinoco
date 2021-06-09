@@ -83,7 +83,7 @@ function formulaireContactValid() {
           localStorage.setItem("paiement", totalComplet);
           localStorage.setItem("nbrArticles", nbrArticles);
           // on redirige l'utilisateur vers la page confirmation.html lors de la fin de la fonction
-          window.location.href = "./confirmation.html";
+          window.location.href = "/confirmation.html";
         });
     } else {
       alert("Veuillez remplir le formulaire correctement");
