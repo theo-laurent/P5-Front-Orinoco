@@ -3,6 +3,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.nomAgence {
+  font-family: "Satisfy";
+  font-size: 35px;
+}
+
 .card-index {
   border-radius: 50px;
 }
